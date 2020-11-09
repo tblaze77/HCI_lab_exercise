@@ -1,0 +1,8 @@
+.navigationHeader {
+  height: 115px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  margin: 0 15px;
+  align-items: center;
+}
