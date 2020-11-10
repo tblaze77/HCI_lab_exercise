@@ -1,11 +1,11 @@
 import React from "react"
-import headerFooter from "../layouts/headerFooter"
-import TitlePage from "../layouts/TitlePage"
+import HeaderFooter from "../layouts/HeaderFooter"
+import TitlePage from "../modules/TitlePage"
 
 const IndexPage = () => (
-  <headerFooter activeTab="Home">
+  <HeaderFooter activeTab="Home">
     <TitlePage />
-  </headerFooter>
+  </HeaderFooter>
 )
 
 export default IndexPage

@@ -2,16 +2,16 @@ import React from 'react'
 import NavigationHeader from "../modules/NavigationHeader"
 import Footer from "../modules/Footer"
 
-import React from 'react'
 
-const headerFooter = ({children, activeTab}) => (
+
+const HeaderFooter = ({children, activeTab}) => (
     <>
         <NavigationHeader activeTab={activeTab} />
-        {children}
+            {children}
         <Footer />
     
     </>
 
 )
 
-export default headerFooter
+export default HeaderFooter
