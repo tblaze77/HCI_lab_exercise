@@ -1,9 +1,10 @@
 import React from "react"
 import headerFooter from "../layouts/headerFooter"
+import TitlePage from "../layouts/TitlePage"
 
 const IndexPage = () => (
   <headerFooter activeTab="Home">
-    {/*svaka komponenta ubacena je child element hoC-u */}
+    <TitlePage />
   </headerFooter>
 )
 
