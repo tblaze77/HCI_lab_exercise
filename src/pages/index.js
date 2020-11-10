@@ -1,12 +1,10 @@
 import React from "react"
-import NavigationHeader from "../components/NavigationHeader"
-import Footer from "../components/Footer"
+import headerFooter from "../layouts/headerFooter"
 
 const IndexPage = () => (
-  <main>
-    <NavigationHeader activeTab = "Home"/>
-    <Footer />
-  </main>
+  <headerFooter activeTab="Home">
+    {/*svaka komponenta ubacena je child element hoC-u */}
+  </headerFooter>
 )
 
 export default IndexPage
