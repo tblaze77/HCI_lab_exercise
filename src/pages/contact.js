@@ -2,11 +2,11 @@ import React from "react"
 import HeaderFooterLayout from "../layouts/headerFooter"
 
 import ContactForm from "../modules/ContactForm";
-import ContactSeparator from "../modules/ContactSeparator";
+import SeparatorBar from "../modules/SeparatorBar";
  
 const ContactPage = () => (
     <HeaderFooterLayout activeTab="Contact">
-        <ContactSeparator text="contact"/>
+        <SeparatorBar text="contact"/>
         <ContactForm />
     </HeaderFooterLayout>
 )
