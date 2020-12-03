@@ -6,7 +6,7 @@ import ImagePool from "../ImagePool"
 const GalleryContainer = ({title}) => (
     <section className={styles.galleryContainer}>
         <h1>{title}</h1>
-        <ImagePool />
+        <ImagePool start={0} end={3} />
     </section>
 )
  
